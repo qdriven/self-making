@@ -21,4 +21,3 @@
 - [fluentqa-python](https://github.com/fluent-qa/fluent-qa/fluentqa-python.git) QA Daily Python Libs
 - [low-code-way](https://qa-lowcode.vercel.app/) Low Code Way 
 
-
