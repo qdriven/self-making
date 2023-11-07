@@ -1,0 +1,8 @@
+type: object
+properties:
+  results:
+    type: array
+    maxItems: 2000
+    items:
+      $ref: 'Result.create.yaml'
+required: [results]

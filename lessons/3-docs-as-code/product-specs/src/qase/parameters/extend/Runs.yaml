@@ -1,0 +1,6 @@
+name: include
+in: query
+description: |
+  Include a list of related entities IDs into response. Should be separated by comma. Possible values: cases, defects
+schema:
+  type: string

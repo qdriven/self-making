@@ -1,0 +1,15 @@
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+  title:
+    type: string
+  description:
+    type: string
+    nullable: true
+  slug:
+    type: string
+  host:
+    type: string
+    nullable: true

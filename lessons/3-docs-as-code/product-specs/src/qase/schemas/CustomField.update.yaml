@@ -1,0 +1,45 @@
+type: object
+properties:
+  title:
+    type: string
+    maxLength: 255
+  value:
+    type: array
+    nullable: true
+    items:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        title:
+          type: string
+          maxLength: 255
+  replace_values:
+    type: object
+    description: Dictionary of old values and their replacemants
+    nullable: true
+    additionalProperties:
+      type: string
+  placeholder:
+    type: string
+    maxLength: 255
+    nullable: true
+  default_value:
+    type: string
+    maxLength: 255
+    nullable: true
+  is_filterable:
+    type: boolean
+  is_visible:
+    type: boolean
+  is_required:
+    type: boolean
+  is_enabled_for_all_projects:
+    type: boolean
+  projects_codes:
+    type: array
+    items:
+      type: string
+required:
+  - title

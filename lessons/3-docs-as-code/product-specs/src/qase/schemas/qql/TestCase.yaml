@@ -1,0 +1,82 @@
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+  position:
+    type: integer
+  title:
+    type: string
+  description:
+    type: string
+    nullable: true
+  preconditions:
+    type: string
+    nullable: true
+  postconditions:
+    type: string
+    nullable: true
+  severity:
+    type: integer
+  priority:
+    type: integer
+  type:
+    type: integer
+  layer:
+    type: integer
+  is_flaky:
+    type: integer
+  behavior:
+    type: integer
+  automation:
+    type: integer
+  status:
+    type: integer
+  milestone_id:
+    type: integer
+    format: int64
+    nullable: true
+  suite_id:
+    type: integer
+    format: int64
+    nullable: true
+  custom_fields:
+    type: array
+    items:
+      $ref: '../CustomFieldValue.yaml'
+  attachments:
+    type: array
+    items:
+      $ref: '../Attachment.yaml'
+  steps_type:
+    type: string
+    nullable: true
+  steps:
+    type: array
+    items:
+      $ref: '../TestStep.yaml'
+  params:
+    anyOf:
+      - type: array
+        items: {}
+      - type: object
+  tags:
+    type: array
+    items:
+      $ref: '../Tag.value.yaml'
+  member_id:
+    type: integer
+    format: int64
+    deprecated: true
+    description: Deprecated, use `author_id` instead.
+  author_id:
+    type: integer
+    format: int64
+  created_at:
+    type: string
+    format: date-time
+    example: "2021-12-30T19:23:59+00:00"
+  updated_at:
+    type: string
+    format: date-time
+    example: "2021-12-30T19:23:59+00:00"

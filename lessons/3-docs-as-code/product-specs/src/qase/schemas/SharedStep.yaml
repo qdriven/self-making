@@ -1,0 +1,41 @@
+type: object
+properties:
+  hash:
+    type: string
+  title:
+    type: string
+  action:
+    type: string
+  expected_result:
+    type: string
+  steps:
+    type: array
+    items:
+      $ref: 'SharedStepContent.yaml'
+  data:
+    type: string
+  cases:
+    type: array
+    items:
+      type: integer
+      format: int64
+  cases_count:
+    type: integer
+  created:
+    deprecated: true
+    description: Deprecated, use the `created_at` property instead.
+    type: string
+    example: "2021-12-30 19:23:59"
+  updated:
+    deprecated: true
+    description: Deprecated, use the `updated_at` property instead.
+    type: string
+    example: "2021-12-30 19:23:59"
+  created_at:
+    type: string
+    format: date-time
+    example: "2021-12-30T19:23:59+00:00"
+  updated_at:
+    type: string
+    format: date-time
+    example: "2021-12-30T19:23:59+00:00"

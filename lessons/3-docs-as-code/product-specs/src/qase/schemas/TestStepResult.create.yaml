@@ -1,0 +1,33 @@
+type: object
+properties:
+  position:
+    type: integer
+    deprecated: true
+  status:
+    type: string
+    enum:
+      - passed
+      - failed
+      - blocked
+  comment:
+    type: string
+    nullable: true
+  attachments:
+    type: array
+    nullable: true
+    items:
+      type: string
+  action:
+    type: string
+  expected_result:
+    type: string
+    nullable: true
+  data:
+    type: string
+    nullable: true
+  steps:
+    type: array
+    description: 'Nested steps results may be passed here. Use same structure for them.'
+    items:
+      type: object
+required: [status]
