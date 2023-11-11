@@ -10,9 +10,9 @@
 ***[Devops/Testops projects](https://github.com/fluent-qa/fluent-project-templates)***:
 
 - [ansible-playbook-template](https://github.com/qdriven/ansible-playbook-templates)
-- [fluentqa-mdocs-template](https://github.com/qdriven/fluentqa-md-docs-template.git)
+- [fluentqa-mdocs-template](https://github.com/fluent-qa/fluentqa-md-docs-template.git)
 - [python-templates](https://github.com/qdriven/fluent-pypro-template)
-- [docs-templates](https://github.com/qdriven/docs-templates)
+- [nextr-docs-templates](https://github.com/qdriven/docs-templates)
 - [golang-template project](https://github.com/fluent-qa/fluentqa-gotpl.git) golang template project
 
 
