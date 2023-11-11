@@ -1,6 +1,0 @@
-type: object
-properties:
-  member_id:
-    type: integer
-    format: int64
-    description: Team member id title.

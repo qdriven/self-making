@@ -1,8 +1,0 @@
-name: code
-in: path
-description: Code of project, where to search entities.
-required: true
-schema:
-  type: string
-  minLength: 2
-  maxLength: 10

@@ -1,11 +1,11 @@
-# Personal Side Projects
-- [Personal Side Projects](#personal-side-projects)
-  - [1.Template Projects For different lanagues](#1template-projects-for-different-lanagues)
+# Personal Side Projects - Self Making
+- [Personal Side Projects - Self Making](#personal-side-projects---self-making)
+  - [1.Starter- Template Projects For different lanagues](#1starter--template-projects-for-different-lanagues)
   - [2. Software QA Project](#2-software-qa-project)
   - [3. Lessons to Learn](#3-lessons-to-learn)
 
 
-## 1.Template Projects For different lanagues
+## 1.Starter- Template Projects For different lanagues
 
 ***[Devops/Testops projects](https://github.com/fluent-qa/fluent-project-templates)***:
 
@@ -21,7 +21,17 @@
 - [fluentqa-workspace](https://github.com/fluent-qa/fluentqa-workspace.git) QA Workspace 
 - [fluentqa-python](https://github.com/fluent-qa/fluent-qa/fluentqa-python.git) QA Daily Python Libs
 - [low-code-way](https://qa-lowcode.vercel.app/) Low Code Way 
+- ToDO ....
+
 
 ## 3. Lessons to Learn
 
-- [API Docs as Code](./lessons/3-docs-as-code/product-specs/README.md)
+TODO
+
+## 4. gpts app
+
+TODO
+
+## 5. Localstack
+
+Development LocalStack

@@ -1,9 +1,0 @@
-type: object
-properties:
-  status:
-    type: string
-    enum:
-      - in_progress
-      - resolved
-      - invalid
-required: [status]

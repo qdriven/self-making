@@ -1,7 +1,0 @@
-description: Not Found.
-content:
-  application/json:
-    schema:
-      allOf:
-        - $ref: '../Base.yaml'
-        - $ref: '../BaseError.yaml'
