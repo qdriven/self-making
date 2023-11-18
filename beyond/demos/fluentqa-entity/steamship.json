@@ -1,0 +1,35 @@
+{
+	"type": "package",
+	"handle": "entity-generator",
+	"version": "entity-generator",
+	"description": "",
+	"author": "simonpatrick",
+	"entrypoint": "Unused",
+	"public": true,
+	"plugin": null,
+	"build_config": {
+		"ignore": [
+			"tests",
+			"examples"
+		]
+	},
+	"configTemplate": {},
+	"steamshipRegistry": {
+		"tagline": "code-generator",
+		"tagline2": null,
+		"usefulFor": null,
+		"videoUrl": null,
+		"githubUrl": null,
+		"demoUrl": null,
+		"blogUrl": null,
+		"jupyterUrl": null,
+		"authorGithub": "",
+		"authorName": "simonpatrick",
+		"authorEmail": null,
+		"authorTwitter": null,
+		"authorUrl": null,
+		"tags": [
+			"code-generator"
+		]
+	}
+}
