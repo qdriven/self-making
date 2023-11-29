@@ -5,7 +5,12 @@ docs/
 categories/
 tutorials/
 tech-stack/
+localstack
 lessons/
 starters/
 simplify-qa/
-beyond/spec4u/
+beyond/specs/
+beyond/agent-way/
+beyond/videos/
+beyond/
+resources/
